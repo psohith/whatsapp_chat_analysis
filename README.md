@@ -17,3 +17,8 @@ Complete analysis of both whatsapp Group and Individual chats
 ![Screenshot from 2023-03-03 00-41-56](https://user-images.githubusercontent.com/83358184/222528683-70eeb0ec-56bf-42a4-a997-f128eda56838.png)
 
 ![Screenshot from 2023-03-03 00-42-01](https://user-images.githubusercontent.com/83358184/222528733-02e5fe3b-e6af-420f-8532-b57b87a10ddd.png)
+
+
+we can also analys individual member in a group
+
+![Screenshot from 2023-03-03 00-46-34](https://user-images.githubusercontent.com/83358184/222529272-c14d65a7-9cef-43ab-8adc-af961dbeec6a.png)
