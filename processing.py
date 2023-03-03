@@ -34,12 +34,20 @@ def create_dataFrame(data):
         dates.append(date[:-2]+str(int(date[-2:])+2000))
         date = dates[-1].split('/')
         date = [int(x) for x in date]
-        day.append(date[0])
-        month.append(date[1])
-        year.append(date[2])
-        date_Val = datetime.date(date[2],date[1],date[0])
+        try : 
+            date_Val = datetime.date(date[2],date[1],date[0])
+            day.append(date[0])
+            month.append(date[1])
+            year.append(date[2])
+        except:
+            date_Val = datetime.date(date[2],date[0],date[1])
+            day.append(date[1])
+            month.append(date[0])
+            year.append(date[2])
+
         day_of_week = date_Val.weekday()
         week.append(calendar.day_name[day_of_week])
+
 
 
     df['date'] = dates
